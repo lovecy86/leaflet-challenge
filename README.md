@@ -39,8 +39,8 @@ In this part, in addition to earthquake data, tectonic plate boundaries are obta
 1. Right click on index.html and click on 'Preview in Default Browser' (if Open Browser Preview extension is already installed).
 2. The map will load with the Satellite basemap by default, showing earthquake markers and tectonic plate boundaries (for Part 1 only earthquke markers and for Part 2 Earthquake markers and tectonic plates, both will be loaded).
 3. Use the layer control (top-right corner) to:
-   - Switch between basemaps: Satellite and Street (for Part1) and Satellite, Grayscale, Outdoors(for Part 2).
-   - Toggle overlays: Earthquakes, Tectonic Plates for Part 2.
+   - `Switch between basemaps`: Satellite and Street (for Part1) and Satellite, Grayscale, Outdoors(for Part 2).
+   - `Toggle overlays`: Earthquakes, Tectonic Plates for Part 2.
 4. Click on an earthquake marker to see a popup with details (magnitude, location, depth).
 5. Refer to the legend (bottom-right) to understand the depth color scale (green for shallow, red for deep).
 
@@ -53,6 +53,6 @@ In this part, in addition to earthquake data, tectonic plate boundaries are obta
 - `images/`: Directory for storing screenshots.
 
 ## Technologies Used
-Leaflet.js: For interactive mapping.
-D3.js: For fetching and processing GeoJSON data.
-HTML/CSS: For structure and styling.
+- `Leaflet.js`: For interactive mapping.
+- `D3.js`: For fetching and processing GeoJSON data.
+- `HTML/CSS`: For structure and styling.

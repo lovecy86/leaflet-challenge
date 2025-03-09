@@ -1,7 +1,7 @@
 // Create the 'basemap' tile layer that will be the background of our map.
 let basemap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
- attribution: 'Tiles © Esri — Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
-});
+  attribution: 'Tiles © Esri — Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+ });
 
 // OPTIONAL: Step 2
 // Create the 'street' tile layer as a second background of the map
@@ -68,7 +68,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
     if (magnitude === 0) {
       return 1;
     }
-    return magnitude * 2;
+    return magnitude * 4;
 
   }
 
